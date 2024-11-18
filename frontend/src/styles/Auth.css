@@ -1,0 +1,130 @@
+/* AuthForm.css */
+
+/* Center the entire form container */
+.auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    /* background-color: #121212; Dark background for the page */
+  }
+  
+  /* Form styles */
+  .auth-form {
+    background-color: #1c1c1c; /* Dark form background */
+    padding: 55px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(206, 175, 175, 0.5);
+    width: 100%;
+    margin-top: 70px;
+    max-width: 400px;
+    transition: transform 0.2s ease-in-out;
+    
+  }
+  
+  /* Hover effect on the form */
+  .auth-form:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Form header */
+  .auth-form-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FF9800; /* Bright orange for the form header */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Labels styling */
+  .auth-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #FF9800; /* Bright orange for labels */
+  }
+  
+  /* Input fields styling */
+  .auth-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    transition: border-color 0.3s ease;
+  }
+  
+  .auth-form input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none;
+  }
+  .auth-form .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Full width */
+    margin-top: 20px;
+  }
+  
+  /* Submit button */
+  .auth-form button {
+    width: 50%;
+    padding: 15px;
+    background-color: #FF9800; /* Bright orange for submit button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    
+  }
+  
+  .auth-form button:hover {
+    background-color: #4CAF50; /* Green on hover */
+  }
+  
+  /* Footer links */
+  .auth-form-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .auth-form-footer a {
+    color: #FF9800;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .auth-form-footer a:hover {
+    color: #4CAF50; /* Green on hover for links */
+  }
+  /* Register link container */
+.register-link {
+  text-align: center;
+  margin-top: 20px; /* Adds spacing between the form and the register link */
+}
+
+/* Paragraph styling inside the register link */
+.register-link p {
+  font-size: 14px;
+  color: #FF9800; /* Matches the bright orange theme */
+}
+
+/* Link styling */
+.register-link a {
+  color: #FF9800; /* Bright orange for the link */
+  text-decoration: none; /* Removes underline by default */
+  font-weight: bold;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hover effect for the link */
+.register-link a:hover {
+  color: #4CAF50; /* Matches the green hover color theme */
+  text-decoration: underline; /* Adds underline on hover */
+}

@@ -1,0 +1,143 @@
+
+.project-details {
+    padding: 20px;
+    height: 100%;
+    /* background-color: #121212; Dark background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-details h2 {
+    color: #FF9800; /* Bright orange header */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.project-details .edit-icon {
+  cursor: pointer;
+  font-size: 20px; /* Adjust icon size */
+  color: #FF9800; /* Bright orange icon */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.project-details .edit-icon:hover {
+  color: #4CAF50; /* Green color on hover */
+}
+
+/* Todo input container */
+.todo-input {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.todo-input input {
+    width: 70%;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    transition: border-color 0.3s ease;
+}
+
+.todo-input input:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none;
+}
+
+.todo-input button {
+    padding: 15px 20px;
+    background-color: #FF9800; /* Bright orange button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo-input button:hover {
+    background-color: #4CAF50; /* Green on hover */
+}
+
+/* Todo list styling */
+.todo-list {
+    width: 100%;
+    max-width: 500px;
+}
+
+.todo-list h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    justify-content: space-between;
+
+}
+.todo-item span {
+  flex: 1; /* Take up remaining space */
+  white-space: normal; /* Allow text wrapping */
+  word-wrap: break-word; /* Break long words */
+  overflow: hidden; /* Hide overflow */
+}
+
+.todo-item:hover {
+    background-color: #333;
+    transform: scale(1.02);
+}
+
+.todo-item input {
+  flex-shrink: 0;
+    cursor: pointer;
+    margin-right: 10px;
+    }
+    
+
+.todo-item span.completed {
+    text-decoration: line-through;
+    color: #888;
+   
+}
+
+.todo-item button {
+  flex-shrink: 0; 
+    padding: 5px 10px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo-item button:hover {
+    background-color: #4CAF50;
+}
+.export-gist-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #4CAF50; /* You can customize the color */
+}
+
+.export-gist-icon:hover {
+  color: #45a049;
+}
